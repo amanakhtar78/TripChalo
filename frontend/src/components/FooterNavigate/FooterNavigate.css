@@ -1,0 +1,16 @@
+.for__footer__icons {
+  font-size: 25px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.for__footer__icons > .active {
+  background: white;
+  color: rgb(3, 3, 62);
+  padding: 10px;
+  border-radius: 50%;
+  transition: ease-in-out 0.5s;
+  color: rgb(5, 39, 5);
+}
