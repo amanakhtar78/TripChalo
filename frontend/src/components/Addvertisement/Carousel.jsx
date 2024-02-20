@@ -38,6 +38,7 @@ function Carousel({ images }) {
                   : "carousel_card"
               }
             >
+              {/*  */}
               <img className="card_image" src={image.image} alt="" />
               <div className="card_overlay">
                 <p className="flex  justify-between w-[100%]">
