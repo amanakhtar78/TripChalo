@@ -17,7 +17,7 @@ import { FaPeopleGroup } from "react-icons/fa6";
 const HomePage = () => {
   return (
     <div className="">
-      <header className="p-2 flex flex-col gap-2 bg-[#18191b] h-[30vh]">
+      <header className="p-2 flex flex-col gap-2 bg-[#18191beb] h-[30vh] rounded-b-xl">
         <section className="flex items-center justify-between h-[5vh]">
           <div className="flex items-center    justify-between bg-[#deeef2]  w-1/3 m-1 rounded p-1">
             <picture className="mx-2">
