@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { LuLogIn } from "react-icons/lu";
 import { IoMdPersonAdd } from "react-icons/io";
+import { useNavigate } from "react-router-dom";
 import { HiOutlineSpeakerphone } from "react-icons/hi";
 import { IoNotifications } from "react-icons/io5";
 import { IoMdChatbubbles } from "react-icons/io";
@@ -14,7 +15,11 @@ import { FaArrowsDownToPeople } from "react-icons/fa6";
 import { GiTakeMyMoney } from "react-icons/gi";
 import { FaRobot } from "react-icons/fa6";
 import { FaPeopleGroup } from "react-icons/fa6";
+
+import { Select } from "@mantine/core";
+
 const HomePage = () => {
+  const navigate = useNavigate();
   return (
     <div className="">
       <header className="p-2 flex flex-col gap-2 bg-[#18191beb] h-[30vh] rounded-b-xl">
@@ -55,18 +60,19 @@ const HomePage = () => {
 
         <div class="m-1 rounded-b-2xl rounded-t-sm bg-gradient-to-r from-[#2a3e3b] to-[#0c3d35ca] h-[100px] flex items-start flex-col p-2 px-4 gap-2">
           <p className="text-stone-50 text-[22px]">
-            Beyound world...{" "}
-            <span className="text-[16px]"> Beyound reach...</span>
+            Beyond words...
+            <span className="text-[16px]"> Beyond reach...</span>
           </p>
           <div className="w-[100%] relative">
-            <input
-              type="text"
-              className="w-[100%] rounded-3xl h-[40px] p-1 px-5 "
-              placeholder="search..."
+            <Select
+              radius="md"
+              checkIconPosition="right"
+              placeholder="Search Location"
+              data={["React", "Angular", "Vue", "Svelte"]}
+              comboboxProps={{
+                transitionProps: { transition: "pop", duration: 200 },
+              }}
             />
-            <p className="absolute top-0 right-0 h-[30px] flex items-center px-4 bg-white rounded-3xl my-1">
-              <FaSearch />
-            </p>
           </div>
         </div>
         <main className="my-3 mx-2 rounded-2xl w-auto bg-white p-2">
@@ -75,12 +81,17 @@ const HomePage = () => {
             <p className="bg-slate-200 rounded-xl px-2 ">more...</p>
           </header>
           <section className="sort__first__season__budget">
-            <aside>
+            <aside
+              onClick={() => {
+                navigate("/DataSort");
+              }}
+            >
               <p>
                 <LuSunSnow />
               </p>
               <p> Season</p>
             </aside>
+
             <aside>
               {" "}
               <p>
@@ -100,7 +111,7 @@ const HomePage = () => {
               <p>
                 <FaRobot />
               </p>
-              <p> AI top-pic</p>
+              <p> AI top</p>
             </aside>
           </section>
         </main>

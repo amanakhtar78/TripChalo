@@ -1,0 +1,64 @@
+.custom__check__season {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 0 4px;
+  gap: 5px;
+  background-color: white;
+}
+.custom__check__season img {
+  border-radius: 10px;
+  height: auto;
+  width: 50px;
+}
+.header__check {
+  margin: 2px;
+}
+.header__check h1 {
+  font-weight: 600;
+  font-size: 16px;
+}
+.check__filter {
+  height: 20px;
+  width: 30px;
+}
+.month__filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.month__filter div {
+  padding: 5px 10px;
+  background-color: rgba(105, 123, 105, 0.578);
+  border-radius: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.filter__data__table {
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-bottom: 150px;
+}
+
+.filter__data__table table {
+  width: 100%;
+  border-collapse: separate; /* Ensure borders are separated */
+  border-spacing: 0; /* Set border spacing to zero */
+}
+
+.filter__data__table tr {
+  border: 1px solid;
+  outline: 1px solid;
+  margin: 10px 0px;
+  border-radius: 10px;
+}
+
+.filter__data__table td {
+  padding: 15px 5px;
+  background-color: white;
+  margin: 10px;
+}
