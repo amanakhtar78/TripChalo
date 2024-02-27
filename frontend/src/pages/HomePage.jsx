@@ -66,6 +66,7 @@ const HomePage = () => {
           <div className="w-[100%] relative">
             <Select
               radius="md"
+              searchable
               checkIconPosition="right"
               placeholder="Search Location"
               data={["React", "Angular", "Vue", "Svelte"]}

@@ -25,6 +25,9 @@ const FilterMainSort = () => {
         <button
           className="px-2 mb-2 h-[30px] 
         bg-gradient-to-r from-[#2a3e3b] to-[#0c3d35ca] text-white rounded font-semibold "
+          onClick={() => {
+            navigate("/TripPlan");
+          }}
         >
           Apply...
         </button>

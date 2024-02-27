@@ -7,3 +7,10 @@
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+input,
+select,
+textarea {
+  border: 1px solid;
+  padding: 3px;
+  border-radius: 5px;
+}

@@ -1,0 +1,23 @@
+.icons__for__travel > div {
+  background-color: rgba(16, 55, 90, 0.696);
+  padding: 5px;
+  color: white;
+  border-radius: 4px;
+  min-width: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icons__for__travel P {
+  font-size: small;
+}
+.icons__for__travel h4 {
+  font-size: larger;
+}
+.carosL__img img {
+  height: 100px;
+  padding: 5px 0px;
+  width: 100%;
+  object-fit: cover;
+}
