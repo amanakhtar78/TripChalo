@@ -31,7 +31,7 @@ const FilterPlaces = () => {
           Apply...
         </button>
       </div>
-      <section className="flex flex-wrap  gap-1">
+      <section className="flex flex-wrap justify-around ">
         <div className="custom__check__season">
           <picture>
             <img src={scroll1} height={60} width={60} alt="scroll1" />
@@ -94,7 +94,7 @@ const FilterPlaces = () => {
           Apply...
         </button>
       </div>
-      <section className="month__filter">
+      <section className="month__filter ">
         <div>
           <h1>January</h1>
           <p>

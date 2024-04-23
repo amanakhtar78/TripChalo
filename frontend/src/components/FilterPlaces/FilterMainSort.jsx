@@ -14,7 +14,7 @@ import { BsFillSunFill } from "react-icons/bs";
 import { FaCanadianMapleLeaf } from "react-icons/fa";
 import { FaCloudRain } from "react-icons/fa6";
 import { MdSevereCold } from "react-icons/md";
-import { FcLike } from "react-icons/fc";
+import { FaHeart } from "react-icons/fa";
 
 const FilterMainSort = () => {
   const navigate = useNavigate();
@@ -35,176 +35,364 @@ const FilterMainSort = () => {
       <section className="month__filter">
         <div>
           <h1>Beach</h1>
-          <p>
-            <FcLike />
+          <p className="text-slate-500">
+            <FaHeart />
           </p>
         </div>
 
-        <div>
+        <div className="">
           <h1>Mountain</h1>
           <p>
-            <FcLike />
+            <FaHeart />
           </p>
         </div>
 
         <div>
           <h1>Temple</h1>
           <p>
-            <FcLike />
+            <FaHeart />
           </p>
         </div>
 
         <div>
           <h1>Mosque</h1>
           <p>
-            <FcLike />
+            <FaHeart />
           </p>
         </div>
 
         <div>
           <h1>Church</h1>
           <p>
-            <FcLike />
+            <FaHeart />
           </p>
         </div>
 
         <div>
           <h1>Mall</h1>
           <p>
-            <FcLike />
+            <FaHeart />
           </p>
         </div>
 
         <div>
           <h1>National Park</h1>
           <p>
-            <FcLike />
+            <FaHeart />
           </p>
         </div>
 
         <div>
           <h1>Waterfall</h1>
           <p>
-            <FcLike />
+            <FaHeart />
           </p>
         </div>
 
         <div>
           <h1>Lake</h1>
           <p>
-            <FcLike />
+            <FaHeart />
           </p>
         </div>
 
         <div>
           <h1>Forest</h1>
           <p>
-            <FcLike />
+            <FaHeart />
           </p>
         </div>
 
         <div>
           <h1>Historical Site</h1>
           <p>
-            <FcLike />
+            <FaHeart />
           </p>
         </div>
 
         <div>
           <h1>Theme Park</h1>
           <p>
-            <FcLike />
+            <FaHeart />
           </p>
         </div>
 
         <div>
           <h1>Zoo</h1>
           <p>
-            <FcLike />
+            <FaHeart />
           </p>
         </div>
 
         <div>
           <h1>Aquarium</h1>
           <p>
-            <FcLike />
+            <FaHeart />
           </p>
         </div>
 
         <div>
           <h1>Botanical Garden</h1>
           <p>
-            <FcLike />
+            <FaHeart />
           </p>
         </div>
 
         <div>
           <h1>Ski Resort</h1>
           <p>
-            <FcLike />
+            <FaHeart />
           </p>
         </div>
 
         <div>
           <h1>Camping Site</h1>
           <p>
-            <FcLike />
+            <FaHeart />
           </p>
         </div>
 
         <div>
           <h1>Desert</h1>
           <p>
-            <FcLike />
+            <FaHeart />
           </p>
         </div>
 
         <div>
           <h1>Island</h1>
           <p>
-            <FcLike />
+            <FaHeart />
           </p>
         </div>
 
         <div>
           <h1>Vineyard</h1>
           <p>
-            <FcLike />
+            <FaHeart />
           </p>
         </div>
 
         <div>
           <h1>Farm</h1>
           <p>
-            <FcLike />
+            <FaHeart />
           </p>
         </div>
 
         <div>
           <h1>Spa Resort</h1>
           <p>
-            <FcLike />
+            <FaHeart />
           </p>
         </div>
 
         <div>
           <h1>Hot Spring</h1>
           <p>
-            <FcLike />
+            <FaHeart />
           </p>
         </div>
 
         <div>
           <h1>Cultural Festival</h1>
           <p>
-            <FcLike />
+            <FaHeart />
           </p>
         </div>
 
         <div>
           <h1>Cruise</h1>
           <p>
-            <FcLike />
+            <FaHeart />
+          </p>
+        </div>
+      </section>
+      <div className="flex justify-between  items-end m-3 ">
+        <h1 className="text-[28px] font-bold">Don't Suggest</h1>
+        <button
+          className="px-2 mb-2 h-[30px] 
+        bg-gradient-to-r from-[#2a3e3b] to-[#0c3d35ca] text-white rounded font-semibold "
+          onClick={() => {
+            navigate("/TripPlan");
+          }}
+        >
+          Apply...
+        </button>
+      </div>
+      <section className="month__filter">
+        <div>
+          <h1>Beach</h1>
+          <p>
+            <FaHeart />
+          </p>
+        </div>
+
+        <div>
+          <h1>Mountain</h1>
+          <p>
+            <FaHeart />
+          </p>
+        </div>
+
+        <div>
+          <h1>Temple</h1>
+          <p>
+            <FaHeart />
+          </p>
+        </div>
+
+        <div>
+          <h1>Mosque</h1>
+          <p>
+            <FaHeart />
+          </p>
+        </div>
+
+        <div>
+          <h1>Church</h1>
+          <p>
+            <FaHeart />
+          </p>
+        </div>
+
+        <div>
+          <h1>Mall</h1>
+          <p>
+            <FaHeart />
+          </p>
+        </div>
+
+        <div>
+          <h1>National Park</h1>
+          <p>
+            <FaHeart />
+          </p>
+        </div>
+
+        <div>
+          <h1>Waterfall</h1>
+          <p>
+            <FaHeart />
+          </p>
+        </div>
+
+        <div>
+          <h1>Lake</h1>
+          <p>
+            <FaHeart />
+          </p>
+        </div>
+
+        <div>
+          <h1>Forest</h1>
+          <p>
+            <FaHeart />
+          </p>
+        </div>
+
+        <div>
+          <h1>Historical Site</h1>
+          <p>
+            <FaHeart />
+          </p>
+        </div>
+
+        <div>
+          <h1>Theme Park</h1>
+          <p>
+            <FaHeart />
+          </p>
+        </div>
+
+        <div>
+          <h1>Zoo</h1>
+          <p>
+            <FaHeart />
+          </p>
+        </div>
+
+        <div>
+          <h1>Aquarium</h1>
+          <p>
+            <FaHeart />
+          </p>
+        </div>
+
+        <div>
+          <h1>Botanical Garden</h1>
+          <p>
+            <FaHeart />
+          </p>
+        </div>
+
+        <div>
+          <h1>Ski Resort</h1>
+          <p>
+            <FaHeart />
+          </p>
+        </div>
+
+        <div>
+          <h1>Camping Site</h1>
+          <p>
+            <FaHeart />
+          </p>
+        </div>
+
+        <div>
+          <h1>Desert</h1>
+          <p>
+            <FaHeart />
+          </p>
+        </div>
+
+        <div>
+          <h1>Island</h1>
+          <p>
+            <FaHeart />
+          </p>
+        </div>
+
+        <div>
+          <h1>Vineyard</h1>
+          <p>
+            <FaHeart />
+          </p>
+        </div>
+
+        <div>
+          <h1>Farm</h1>
+          <p>
+            <FaHeart />
+          </p>
+        </div>
+
+        <div>
+          <h1>Spa Resort</h1>
+          <p>
+            <FaHeart />
+          </p>
+        </div>
+
+        <div>
+          <h1>Hot Spring</h1>
+          <p>
+            <FaHeart />
+          </p>
+        </div>
+
+        <div>
+          <h1>Cultural Festival</h1>
+          <p>
+            <FaHeart />
+          </p>
+        </div>
+
+        <div>
+          <h1>Cruise</h1>
+          <p>
+            <FaHeart />
           </p>
         </div>
       </section>
@@ -235,7 +423,7 @@ const FilterMainSort = () => {
                   <p className="text-[14px]">55</p>{" "}
                   <p className="text-lg">
                     {" "}
-                    <FcLike />
+                    <FaHeart />
                   </p>
                 </div>
               </td>
@@ -259,7 +447,7 @@ const FilterMainSort = () => {
                   <p className="text-[14px]">25</p>{" "}
                   <p className="text-lg">
                     {" "}
-                    <FcLike />
+                    <FaHeart />
                   </p>
                 </div>
               </td>
@@ -283,7 +471,7 @@ const FilterMainSort = () => {
                   <p className="text-[14px]">5</p>{" "}
                   <p className="text-lg">
                     {" "}
-                    <FcLike />
+                    <FaHeart />
                   </p>
                 </div>
               </td>
@@ -307,7 +495,7 @@ const FilterMainSort = () => {
                   <p className="text-[14px]">55</p>{" "}
                   <p className="text-lg">
                     {" "}
-                    <FcLike />
+                    <FaHeart />
                   </p>
                 </div>
               </td>

@@ -8,6 +8,7 @@
   gap: 5px;
   background-color: white;
 }
+
 .custom__check__season img {
   border-radius: 10px;
   height: auto;
@@ -38,6 +39,16 @@
   gap: 10px;
   align-items: center;
 }
+.custom__check__season {
+  flex-basis: calc(
+    49% - 5px
+  ); /* Set the flex basis to occupy half of the container's width */
+  margin: 3px 0px; /* Add some margin between the divs */
+}
+.month__filter p {
+  color: rgb(161, 156, 156);
+}
+
 .filter__data__table {
   padding: 10px 20px;
   border-radius: 20px;

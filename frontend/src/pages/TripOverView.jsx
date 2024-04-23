@@ -43,16 +43,6 @@ const TripOverView = () => {
       </section>
       <main>
         <aside className="flex my-6 gap-1 justify-around items-end">
-          <div className="w-[40%] flex flex-col justify-end items-end">
-            <p className="font-serif underline  text-right">
-              Mejestic bus stand
-            </p>
-            <p>100km</p>
-          </div>
-          <div className="w-[10%] text-[43px]">
-            <FaLongArrowAltDown />
-          </div>
-
           <div className="w-[40%] flex gap-1 justify-between icons__for__travel">
             <div>
               <h4>
@@ -72,6 +62,13 @@ const TripOverView = () => {
               </h4>
               <p>200</p>
             </div>
+          </div>
+          <div className="w-[10%] text-[43px]">
+            <FaLongArrowAltDown />
+          </div>
+          <div className="w-[40%] flex flex-col ">
+            <p className="font-serif underline  ">Mejestic bus stand</p>
+            <p>100km</p>
           </div>
         </aside>
         <section className="my-4">
@@ -133,14 +130,6 @@ const TripOverView = () => {
           </div>
         </section>
         <aside className="flex my-6 gap-1 justify-around items-end">
-          <div className="w-[40%] flex flex-col justify-end items-end">
-            <p className="font-serif underline  text-right">Nandi </p>
-            <p>120km</p>
-          </div>
-          <div className="w-[10%] text-[43px]">
-            <FaLongArrowAltDown />
-          </div>
-
           <div className="w-[40%] flex gap-1 justify-between icons__for__travel">
             <div>
               <h4>
@@ -160,6 +149,13 @@ const TripOverView = () => {
               </h4>
               <p>300</p>
             </div>
+          </div>
+          <div className="w-[10%] text-[43px]">
+            <FaLongArrowAltDown />
+          </div>
+          <div className="w-[40%] flex flex-col ">
+            <p className="font-serif underline  ">Nandi </p>
+            <p>120km</p>
           </div>
         </aside>
         <section className="my-4">

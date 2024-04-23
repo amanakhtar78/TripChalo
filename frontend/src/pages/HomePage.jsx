@@ -76,10 +76,10 @@ const HomePage = () => {
             />
           </div>
         </div>
-        <main className="my-3 mx-2 rounded-2xl w-auto bg-white p-2">
+        <main className="my-3 mx-2 rounded-2xl w-auto  p-2">
           <header className="flex justify-between items-end">
             <h1 className="text-2xl font-semibold">Plan according to</h1>
-            <p className="bg-slate-200 rounded-xl px-2 ">more...</p>
+            <p className="font-bold">more...</p>
           </header>
           <section className="sort__first__season__budget">
             <aside
